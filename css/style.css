@@ -12,17 +12,17 @@ html {
 
 body {
     min-height: 100%;
-    /* max-width: 1366px;
-    margin: 0 auto;
-    background-image: url(../images/background.png);
+    /* max-width: 1366px; */
+    /* margin: 0 auto; */
+    /* background-image: url(../images/background.png);
     background-position: right bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: #181617; */
-    background-color: #181617;
+     */
+     background-color: #181617;
 }
 
-.logo {
+.header__inner {
     padding-top: 31px;
     text-align: center;
 }
@@ -33,9 +33,6 @@ body {
     font-size: 16px;
     font-weight: normal;
     line-height: 24px;
-    margin-left: 202px;
-    margin-top: 50px;
-    width: 622px;
 }
 
 .title {
@@ -45,25 +42,28 @@ body {
     line-height: 60px;
 }
 
-.container {
-    max-width: 1366px;
-    height: 768px;
-    margin: 0 auto;
-    /* background-image: url(../images/background.png);
+.info {
+    background-image: url(../images/background.png);
     background-position: right bottom;
     background-repeat: no-repeat;
-    background-size: contain; */
-    background-color: #181617;
+    background-size: 70%;
 }
 
-.container__inner {
+.container {
+    max-width: 962px;
+    margin: 0 auto;
+    height: calc(100vh);
+}
+
+.info__inner {
     display: flex;
 }
 
 .social {
-    padding: 0px 83px;
+    /* padding: 0px 83px; */
     bottom: 65px;
     position: absolute;
+    left: 87px;
 }
 
 .social-icon {
@@ -87,4 +87,7 @@ body {
 }
 
 .picture {
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
